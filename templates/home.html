@@ -7,18 +7,18 @@
     <title>California House Price</title>
 </head>
 <body>
-    <div class="predict">
+    <div class="predict" style="padding: 1rem;" >
         <h1>California House Price Prediction</h1>
-        <form action="{{ url_for('predict') }}" method="POST" >
-            <input type="text" title="median income in block group" name="MedInc" placeholder="MedInc" required="required" /><br>
-            <input type="text" title="median house age in block group" name="HouseAge" placeholder="HouseAge" required="required" /><br>
-            <input type="text" title="average number of rooms per household" name="AveRooms" placeholder="AveRooms" required="required" /><br>
-            <input type="text" title="average number of bedrooms per household" name="AveBedrms" placeholder="AveBedrms" required="required" /><br>
-            <input type="text" title="block group population" name="Population" placeholder="Population" required="required" /><br>
-            <input type="text" title="average number of household members" name="AveOccup" placeholder="AveOccup" required="required" /><br>
-            <input type="text" title="block group latitude" name="Latitude" placeholder="Latitude" required="required" /><br>
-            <input type="text" title="block group longitude" name="Longitude" placeholder="Longitude" required="required" /><br>
-        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+        <form action="{{ url_for('predict') }}" method="POST">
+            <input style="padding: 0.2rem ;margin: 0.2rem;" value="8.32" type="text" title="median income in block group" name="MedInc" placeholder="MedInc" required="required" /><br>
+            <input style="padding: 0.2rem ;margin: 0.2rem;" value="41.0" type="text" title="median house age in block group" name="HouseAge" placeholder="HouseAge" required="required" /><br>
+            <input style="padding: 0.2rem ;margin: 0.2rem;" value="6.9" type="text" title="average number of rooms per household" name="AveRooms" placeholder="AveRooms" required="required" /><br>
+            <input style="padding: 0.2rem ;margin: 0.2rem;" value=".021" type="text" title="average number of bedrooms per household" name="AveBedrms" placeholder="AveBedrms" required="required" /><br>
+            <input style="padding: 0.2rem ;margin: 0.2rem;" value="322" type="text" title="block group population" name="Population" placeholder="Population" required="required" /><br>
+            <input style="padding: 0.2rem ;margin: 0.2rem;" value="2.55" type="text" title="average number of household members" name="AveOccup" placeholder="AveOccup" required="required" /><br>
+            <input style="padding: 0.2rem ;margin: 0.2rem;" value="37.88" type="text" title="block group latitude" name="Latitude" placeholder="Latitude" required="required" /><br>
+            <input style="padding: 0.2rem ;margin: 0.2rem;" value="-122" type="text" title="block group longitude" name="Longitude" placeholder="Longitude" required="required" /><br>
+        <button type="submit" class="btn btn-primary btn-block btn-large" style="padding: 0.5rem; border-radius: 0.5rem;">Predict</button>
         </form>
         <br>
         <br>

@@ -18,3 +18,12 @@ Activate environment
 .\env\Scripts\activate
 ```
 
+Install Requirements
+```
+pip install -r requirements.txt
+```
+
+Run application file.
+```
+python3 app.py
+```
