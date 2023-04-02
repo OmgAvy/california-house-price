@@ -27,3 +27,4 @@ Run application file.
 ```
 python3 app.py
 ```
+[🧪 Test live here 🧪](https://omgavy.vercel.app/project/#californiahouseprice)
